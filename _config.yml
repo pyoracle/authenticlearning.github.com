@@ -10,12 +10,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Minimal Mistakes Development Test Site"
+title                    : "Authentic Learning Academic"
 title_separator          : "-"
 name                     : "Your Name"
-description              : "Minimal Mistakes theme test."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/test"
+description              : "Authentic Learning Academic WebSite"
+url                      : "https://authenticlearning.ca"
+baseurl                  : "/"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -87,7 +87,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Jason Zhou"
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
   location         : "Somewhere"
@@ -111,7 +111,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "mmistakes"
+  twitter          : "jzhou"
   vine             :
   weibo            :
   xing             :
