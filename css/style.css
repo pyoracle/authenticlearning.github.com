@@ -659,7 +659,7 @@ li.language.dropdown > a:hover, li.language.dropdown > a:focus {
 
 @media (min-width: 768px) {
   .navbar-brand.logo {
-    width: 214px;
+    width: 360px;
   }
 }
 
