@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Exercise Test Template</title>
+</head>
+
+<body class="light">
+    <div class="clearfix new-header" id="outer-wrapper">
+        <div id="top-header-container">
+            <div class="new" id="top-header">
+                <nav class="sitewide-navigation">
+                    <span class="links nav-subheader">
+                        <span class="dropdown topic-browser-dropdown">
+                            <a href="http://khanacademy.org/library" class="no-menu">Learn</a>
+                            <a href="http://khanacademy.org/class_profile" class="no-menu">Coach</a>
+                            <div style="clear: both"></div>
+                        </span>
+                    </span>
+                </nav>
+            </div>
+        </div>
+
+        <form action="">
+            <div></div>
+            <textarea id='myTextarea'></textarea><br/>
+                <input type="button" value="Render"  onclick="document.getElementById('output_iframe1').srcdoc = document.getElementById('myTextarea').value;"/>
+            
+        </form>
+
+        <div class="push"></div>
+
+        <iframe id="output_iframe1" srcdoc="<p>Put html in textarea and hit Render to try it!</p>" width="100%" src="demo_iframe_srcdoc.htm" height="800"></iframe>
+
+    </div>
+</body>
+
+
+
+</html>
