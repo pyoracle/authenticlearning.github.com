@@ -1602,9 +1602,9 @@ li.language.dropdown > a:hover, li.language.dropdown > a:focus {
 }
 
 .flex-direction-nav {
-  width: 100%;
+  width: 70%;
   float: left;
-  height: 100%;
+  height: 70%;
   position: absolute;
   top: 0;
   margin: 0;
@@ -1612,11 +1612,11 @@ li.language.dropdown > a:hover, li.language.dropdown > a:focus {
 
 .flex-direction-nav a {
   position: absolute;
-  height: 100%;
+  height: 70%;
   text-indent: -9999px;
-  width: 36px;
+  width: 18px;
   z-index: 9999;
-  height: 48px;
+  height: 24px;
   margin-top: -24px;
   top: 50%;
   text-indent: -9999px;
