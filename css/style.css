@@ -1692,7 +1692,7 @@ li.language.dropdown > a:hover, li.language.dropdown > a:focus {
 .caption_inner {
   width: 595px;
   padding: 25px;
-  background: rgba(0, 0, 0, 0.74);
+  background: rgba(133, 133, 136, 0.5);
   position: relative;
   z-index: 9999;
 }
