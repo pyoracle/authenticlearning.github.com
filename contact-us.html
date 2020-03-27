@@ -142,7 +142,7 @@
 							<h3>Contact Form</h3>
 							<p>Please fill out the form below. We will contact you as soon as possiable.</p>
 							<div class="contact_form">
-								<form method="post" name="c_form" onsubmit="return validateForm()"
+								<form method="post" name="myform" onsubmit="return validateForm()"
 								   action="https://script.google.com/macros/s/AKfycbwy27pmnNCPh8ajGcqzSldDTTF5p7wOuWl_0IzMQA/exec">
 									<div class="row">
 										<div class="col-xs-12 col-sm-7">
@@ -307,7 +307,8 @@
 <script src="js/custom.js"></script>
 	    
 <script
-function validateForm(){
+function validateForm()
+{
 	var name = document.forms["myForm"]["name"].value;
 	var email = document.forms["myForm"]["email"].value;
 	
@@ -315,18 +316,18 @@ function validateForm(){
 
 	if (name.length<1) {
         document.getElementById('error-name').innerHTML = " Please Enter Your Name *"
-    }
-    if (email.length<1) {
+                           }
+       if (email.length<1) {
         document.getElementById('error-email').innerHTML = " Please Enter Your Email *";
-    }
-   
-    if (message.length<1) {
+                           }
+    
+       if (message.length<1) {
         document.getElementById('error-message').innerHTML = " Please Enter Your Message *";
-    }          
+                             }          
     if(name.length<1 || email.length<1 || phone.length<1 || message.length<1){
-       	return false;
-    }            
-}
+                        	return false;
+                                           }            
+}>
 </script>
 </body>
 </html>
