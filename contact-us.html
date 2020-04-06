@@ -41,7 +41,7 @@
       <div class="topbar clearfix">
         <div class="container">
           <ul class="topbar-left">
-            <li class="phoneNo"><i class="fa fa-phone"></i>0123 45678910</li>
+         
             <li class="email-id hidden-xs hidden-sm"><i class="fa fa-envelope"></i>
               <a href="mailto:alearningcanada@gmail.com">alearningcanada@gmail.com</a>
             </li>
@@ -169,7 +169,7 @@ function validateForm()
 									<div class="row">
 										<div class="col-xs-12 col-sm-7">
 											<div class="form-group">
-												<label>Name <span id="error-name">*</span></label>
+												<label>Name <span type="error" id="error-name">*</span></label>
 												<input type="text" class="form-control" name="name">
 											</div>
 										</div>
@@ -177,7 +177,7 @@ function validateForm()
 									<div class="row">
 										<div class="col-xs-12 col-sm-7">
 											<div class="form-group">
-												<label>Email <span id="error-email">*</span></label>
+												<label>Email <span type="error" id="error-email">*</span></label>
 												<input type="text" class="form-control" name="email">
 											</div>
 										</div>
@@ -185,7 +185,7 @@ function validateForm()
 									<div class="row">
 										<div class="col-xs-12 col-sm-11">
 											<div class="form-group">
-												<label>Message <span id="error-message">*</span></label>
+												<label>Message <span type="error" id="error-message">*</span></label>
 												<textarea class="form-control" cols="10" rows="9" name="message"></textarea>
 											</div>
 										</div>
@@ -203,7 +203,7 @@ function validateForm()
 								<ul class="contact_info">
 									
 									<li><i class="fa fa-envelope"></i> <a href="mailto:alearningcanada@gmail.com">alearningcanada@gmail.com</a></li>
-									<li><i class="fa fa-phone"></i> 01-780-4287623</li>
+									
 									<li><i class="fa fa-globe"></i> <a href="index.html">http://www.authenticlearning.ca</a></li>
 								</ul>
 							</div>
@@ -244,8 +244,8 @@ function validateForm()
 
         <div class="col-sm-3 col-xs-6">
           <ul class="menuLink">
-            <li><a href="">About Authentic Learning</a></li>
-      <!--  <li><a href="#">About Our teachers</a></li>
+            <li><a href="about.html">About Authentic Learning</a></li>
+     <!--   <li><a href="#">About Our teachers</a></li>
             <li><a href="#">Staff Members</a></li>
             <li><a href="#">About Our E-class</a></li>-->
           </ul>
@@ -257,21 +257,17 @@ function validateForm()
        <!-- <li><a href="#">Achievement</a></li>
             <li><a href="#">Photo Gallery</a></li>
             <li><a href="#">Our Students</a></li>-->
-    </ul>
+          </ul>
         </div><!-- col-sm-3 col-xs-6 -->
 
         <div class="col-sm-3 col-xs-6 borderLeft">
-          <div class="footer-address">
-            <h5>Location:</h5>
-            <address>
-              Authentic Learning<br>
-            </address>
-            <a href="contact-us.html"><span class="place"><i class="fa fa-map-marker"></i>Main Campus</span></a>
-          </div>
+          <ul class="menuLink">
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
         </div><!-- col-sm-3 col-xs-6 -->
 
-        <div class="col-sm-3 col-xs-6 borderLeft">
-       <!--   <div class="socialArea">
+    <!--  <div class="col-sm-3 col-xs-6 borderLeft">
+       <!-- <div class="socialArea">
             <h5>Find us on:</h5>
             <ul class="list-inline ">
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -282,7 +278,7 @@ function validateForm()
             <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
             </ul>
           </div><!-- social -->
-          <div class="contactNo">
+    <!--      <div class="contactNo">
             <h5>Call us on:</h5>
             <h3>012-3434-456768</h3>
           </div><!-- contactNo -->
@@ -296,9 +292,9 @@ function validateForm()
     <div class="container">
       <div class="row clearfix">
         <div class="col-sm-6 col-xs-12 copyRight">
-          <p>© 2020 Copyright Authentic Learning Bootstrap Template by <a href="http://www.iamabdus.com">Abdus</a></p>
+          <p>© 2020 Copyright Authentic Learning </p>
         </div><!-- col-sm-6 col-xs-12 -->
-        <div class="col-sm-6 col-xs-12 privacy_policy">
+     <!--   <div class="col-sm-6 col-xs-12 privacy_policy">
           <a href="contact-us.html">Contact us</a>
           <a href="privacy-policy.html">Privacy Policy</a>
         </div><!-- col-sm-6 col-xs-12 -->
@@ -306,8 +302,7 @@ function validateForm()
     </div><!-- container -->
   </div><!-- footer -->
 </footer>
-	      
-	      
+          
 </div>
 
 <!-- JQUERY SCRIPTS -->
