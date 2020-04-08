@@ -141,16 +141,25 @@ function validateForm()
 	var message = document.forms["myForm"]["message"].value;
 
 	if (name.length<1) {
-         alert("请输入您的名字");
+         document.getElementById('error-name').innerHTML = " 请输入您的名字";
+                           }
+	if (name.length>=1) {
+         document.getElementById('error-name').innerHTML = " "; 
                            }
 		
        if (email.length<1) {
-        document.getElementById('error-email').innerHTML = " 请输入您的邮件"; return false;
+        document.getElementById('error-email').innerHTML = " 请输入您的邮件"; 
+                           }
+       if (email.length>=1) {
+        document.getElementById('error-email').innerHTML = " ";
                            }
     
        if (message.length<1) {
-        document.getElementById('error-message').innerHTML = " 请输入您的信息"; return false;
-                             }          
+        document.getElementById('error-message').innerHTML = " 请输入您的信息"; 
+                             }  
+	if (message.length>=1) {
+        document.getElementById('error-message').innerHTML = " "; 
+                             }    
       if(name.length<1 || email.length<1 || message.length<1){
                         	return false;}
                                                
