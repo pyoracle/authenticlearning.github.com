@@ -165,7 +165,7 @@ function validateForm()
 							<h3>联系表格</h3>
 							<p>请填写以下表格，我们会尽快联系您</p>
 							<div class="contact_form">
-								<form method="post" name="myForm" onsubmit="return validateForm()"
+								<form method="post" name="myForm" 
 								   action="https://script.google.com/macros/s/AKfycbwy27pmnNCPh8ajGcqzSldDTTF5p7wOuWl_0IzMQA/exec">
 									<div class="row">
 								
@@ -192,7 +192,7 @@ function validateForm()
 											</div>
 										</div> 
 									</div><!--end row-->
-									<input type="submit" value="提交信息" class="commonBtn">
+									<input type="submit" value="提交信息" class="commonBtn" onclick="validateForm()">
 								</form>
 							</div>
 						</div><!--end single content left-->
