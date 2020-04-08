@@ -141,15 +141,25 @@ function validateForm()
 	var message = document.forms["myForm"]["message"].value;
 
 	if (name.length<1) {
-        document.getElementById('error-name').innerHTML = " Please Enter Your Name *"
+        document.getElementById('error-name').innerHTML = "*Please Enter Your Name";
                            }
+	if (name.length>=1) {
+        document.getElementById('error-name').innerHTML = "*";
+                           }
+	
        if (email.length<1) {
-        document.getElementById('error-email').innerHTML = " Please Enter Your Email *"
+        document.getElementById('error-email').innerHTML = "*Please Enter Your Email";
                            }
-    
+        if (email.length>=1) {
+        document.getElementById('error-email').innerHTML = "*";
+		              }  
+	
        if (message.length<1) {
-        document.getElementById('error-message').innerHTML = " Please Enter Your Message *"
-                             }          
+        document.getElementById('error-message').innerHTML = "*Please Enter Your Message"
+                             }   
+       if (message.length<1) {
+        document.getElementById('error-message').innerHTML = "*"
+                             }  
     if(name.length<1 || email.length<1 || message.length<1){
                         	return false;
                                            }            
@@ -190,7 +200,7 @@ function validateForm()
 											</div>
 										</div>
 									</div><!--end row-->
-									<input type="submit" value="Send Message" class="commonBtn">
+									<input type="submit" value="Send Message" class="commonBtn" onclick="validateForm()">
 								</form>
 							</div>
 						</div><!--end single content left-->
